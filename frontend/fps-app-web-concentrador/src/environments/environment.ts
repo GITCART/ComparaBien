@@ -1,6 +1,8 @@
 export const environment = {
   production: false,
-  BASE_ENDPOINT: 'https://localhost:5001/api'
+  //BASE_ENDPOINT: 'https://localhost:5001/api',
+  BASE_ENDPOINT: 'http://192.168.0.109:5001/api'
+
 };
 
 /*

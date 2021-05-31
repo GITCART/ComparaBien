@@ -14,7 +14,7 @@ export class DetallePrestamoComponent implements OnInit {
   producto: any;
 
   constructor(private readonly route: ActivatedRoute, private readonly router: Router,
-              private readonly productoService: ProductoServicioService) { }
+              private  readonly productoService: ProductoServicioService) { }
 
   ngOnInit(): void {
     this.producto = new ProductoFinanciero();
